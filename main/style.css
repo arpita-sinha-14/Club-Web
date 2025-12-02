@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5 {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.6); /* dark overlay for readability */
+  background: rgba(0, 0, 0, 0.6); 
 }
 .hero-bg .container {
   position: relative;
@@ -32,7 +32,7 @@ section {
   padding-bottom: 60px;
 }
 
-/* Project card hover effect (optional) */
+/* Project card hover effect  */
 .project-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
