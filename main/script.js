@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Typing effect on hero tagline
+  //for typing effects...
   const typed = new Typed('#typed-text', {
     strings: ['Building · Learning · Creating', 'Code. Collaborate. Contribute.', 'Web · Projects · Community'],
     typeSpeed: 60,
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loop: true
   });
 
-  
+  //for scrolling...
   document.querySelectorAll('a.nav-link').forEach(link => {
     link.addEventListener('click', (e) => {
       if (link.hash !== '') {
